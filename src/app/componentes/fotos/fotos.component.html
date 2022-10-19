@@ -1,7 +1,11 @@
 <div class="container">
 <div class="imagen" *ngFor="let foto of misfotos">
     <img [src]="foto.url">
-</div>
-</div>
+    <h1>{{foto.title}}</h1>
 
-<div class="container2"></div>
+    <div class="rect">
+        <h2>{{foto.id}}</h2>
+    </div>
+
+</div>
+</div>

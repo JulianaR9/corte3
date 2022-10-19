@@ -3,7 +3,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr; 
-    gap: 15px 10px;  
+    gap: 35px 10px;  
     margin-left: 20px;     
 }
 
+.rect
+{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    border-radius: 40px;
+    position: absolute;
+    margin: -660px 0px 0px 500px;
+}
+
+h2
+{
+    color: white;
+    align-items: center;
+
+    
+}
