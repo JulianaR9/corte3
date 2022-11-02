@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FotosComponent } from './componentes/fotos/fotos.component';
 import { PokemonListComponent } from './componentes/pokemon-list/pokemon-list.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { PokemonListComponent } from './componentes/pokemon-list/pokemon-list.co
     PokemonListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
