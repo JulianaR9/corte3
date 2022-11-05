@@ -107,7 +107,41 @@ let usuario11: Usuario =
     Hora:"6:30 pm",
 }
 
+let usuario12: Usuario =
+{
+    Nombre:"Rocio Quintero",
+    Dirección:"Calle 55 sur 34-84",
+    Telefono: "tres uno tres nueve cero cuatro cinco ocho tres seis",
+    Dia:"Miércoles",
+    Hora:"2:30 pm",
+}
 
+let usuario13: Usuario =
+{
+    Nombre:"Federico Zamora",
+    Dirección:"Diagonal 56 bis sur 36-76",
+    Telefono: "tres uno uno cuatro cinco cero uno tres siete seis",
+    Dia:"Viernes",
+    Hora:"6:30 pm",
+}
+
+let usuario14: Usuario =
+{
+    Nombre:"Lucia Palacios",
+    Dirección:"Calle 50 A sur 35-32",
+    Telefono: "tres uno cero cinco siete cero tres cinco cuatro dos",
+    Dia:"Martes",
+    Hora:"4:30 pm",
+}
+
+let usuario15: Usuario =
+{
+    Nombre:"Pablo Gómez",
+    Dirección:"Carrera 37 sur 50-37",
+    Telefono: "tres dos cero cuatro cuatro ocho nueve dos tres cuatro",
+    Dia:"Martes",
+    Hora:"6:30 pm",
+}
 
 
 
