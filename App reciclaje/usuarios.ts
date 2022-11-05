@@ -4,6 +4,7 @@ interface Usuario {
     Telefono:string,
     Dia:string,
     Hora:string,
+    //Elementos:elemento[]
   
 }
 
@@ -14,6 +15,7 @@ let usuario1: Usuario =
     Telefono: "Tres uno uno dos cinco seis siete tres nueve dos",
     Dia:"Viernes",
     Hora:"4:30 pm",
+    
     
 }
 
@@ -153,4 +155,4 @@ let usuario15: Usuario =
 
 
 
-console.log(usuario1,usuario2);
+console.log(usuario1,usuario2,usuario3,usuario4,usuario5,usuario6,usuario7,usuario8,usuario9,usuario10,usuario11,usuario12,usuario13,usuario14,usuario15);
