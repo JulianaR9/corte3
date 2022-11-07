@@ -1,10 +1,12 @@
-interface Usuario {
+ import { elemento } from "./elemento"
+ 
+ export interface Usuario {
     Nombre:string,
     Dirección:string,
     Telefono:string,
     Dia:string,
     Hora:string,
-    //Elementos:elemento[]
+    Elementos:elemento
   
 }
 
@@ -15,8 +17,13 @@ let usuario1: Usuario =
     Telefono: "Tres uno uno dos cinco seis siete tres nueve dos",
     Dia:"Viernes",
     Hora:"4:30 pm",
-    
-    
+    Elementos:{
+        Nombre:"Plastico",
+        Cantidad_kg:1,
+
+        Nombre2:"Metal",
+        Cantidad2_kg:2
+    }  
 }
 
 let usuario2: Usuario =
@@ -26,6 +33,13 @@ let usuario2: Usuario =
     Telefono: "Tres dos cero cuatro seis ocho nueve siete dos uno",
     Dia:"Lunes",
     Hora:"6:30 pm",
+    Elementos:{
+        Nombre:"Plastico",
+        Cantidad_kg:1,
+
+        Nombre2:"Metal",
+        Cantidad2_kg:2
+    }  
 }
 
 let usuario3: Usuario =
