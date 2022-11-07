@@ -34,10 +34,10 @@ let usuario2: Usuario =
     Dia:"Lunes",
     Hora:"6:30 pm",
     Elementos:{
-        Nombre:"Plastico",
-        Cantidad_kg:1,
+        Nombre:"Papel",
+        Cantidad_kg:3,
 
-        Nombre2:"Metal",
+        Nombre2:"Vidrio",
         Cantidad2_kg:2
     }  
 }
@@ -49,6 +49,13 @@ let usuario3: Usuario =
     Telefono: "tres uno cero seis cinco cuatro cuatro ocho ocho dos",
     Dia:"Miércoles",
     Hora:"2:30 pm",
+    Elementos:{
+        Nombre:"Electronicos",
+        Cantidad_kg:2,
+
+        Nombre2:"Metal",
+        Cantidad2_kg:3
+    }  
 }
 
 let usuario4: Usuario =
@@ -58,6 +65,13 @@ let usuario4: Usuario =
     Telefono: "tres cero cero dos nueve ocho siete cinco cinco cuatro ",
     Dia:"Viernes",
     Hora:"11:30 am",
+    Elementos:{
+        Nombre:"Plastico",
+        Cantidad_kg:4,
+
+        Nombre2:"Vidrio",
+        Cantidad2_kg:2
+    }  
 }
 
 let usuario5: Usuario =
@@ -67,6 +81,13 @@ let usuario5: Usuario =
     Telefono: "tres uno dos cinco siete cinco nueve dos uno seis",
     Dia:"Martes",
     Hora:"6:30 pm",
+    Elementos:{
+        Nombre:"Papel",
+        Cantidad_kg:6,
+
+        Nombre2:"Plastico",
+        Cantidad2_kg:4
+    }  
 }
 
 let usuario6: Usuario =
@@ -76,6 +97,13 @@ let usuario6: Usuario =
     Telefono: "tres uno uno cinco nueve siete tres dos cuatro cuatro",
     Dia:"Miércoles",
     Hora:"10:00 am",
+    Elementos:{
+        Nombre:"Metal",
+        Cantidad_kg:3,
+
+        Nombre2:"Vidrio",
+        Cantidad2_kg:2
+    }  
 }
 
 let usuario7: Usuario =
@@ -85,6 +113,13 @@ let usuario7: Usuario =
     Telefono: "tres uno tres cuatro dos ocho cinco seis seis uno",
     Dia:"Jueves",
     Hora:"7:00 pm",
+    Elementos:{
+        Nombre:"Plastico",
+        Cantidad_kg:4,
+
+        Nombre2:"Electronicos",
+        Cantidad2_kg:2
+    }  
 }
 
 let usuario8: Usuario =
@@ -94,6 +129,13 @@ let usuario8: Usuario =
     Telefono: "tres uno cuatro seis dos cero ocho cero uno dos",
     Dia:"Lunes",
     Hora:"2:30 pm",
+    Elementos:{
+        Nombre:"Vidrio",
+        Cantidad_kg:6,
+
+        Nombre2:"Papel",
+        Cantidad2_kg:4
+    }  
 }
 
 let usuario9: Usuario =
@@ -103,6 +145,13 @@ let usuario9: Usuario =
     Telefono: "tres dos cero dos cuatro ocho ocho cinco uno tres",
     Dia:"Viernes",
     Hora:"11:30 am",
+    Elementos:{
+        Nombre:"Plastico",
+        Cantidad_kg:4,
+
+        Nombre2:"Papel",
+        Cantidad2_kg:4
+    }  
 }
 
 let usuario10: Usuario =
@@ -112,15 +161,29 @@ let usuario10: Usuario =
     Telefono: "tres uno dos nueve seis nueve tres dos cuatro ocho",
     Dia:"Martes",
     Hora:"10:00 am",
+    Elementos:{
+        Nombre:"Electronicos",
+        Cantidad_kg:2,
+
+        Nombre2:"Metal",
+        Cantidad2_kg:6
+    }  
 }
 
 let usuario11: Usuario =
 {
-    Nombre:"Marin Gutiérrez",
+    Nombre:"Martin Gutiérrez",
     Dirección:"Calle 52 G sur 35-40",
     Telefono: "tres uno cero dos ocho ocho cuatro seis dos ocho",
     Dia:"Jueves",
     Hora:"6:30 pm",
+    Elementos:{
+        Nombre:"Papel",
+        Cantidad_kg:6,
+
+        Nombre2:"Vidrio",
+        Cantidad2_kg:2
+    }  
 }
 
 let usuario12: Usuario =
@@ -130,6 +193,13 @@ let usuario12: Usuario =
     Telefono: "tres uno tres nueve cero cuatro cinco ocho tres seis",
     Dia:"Miércoles",
     Hora:"2:30 pm",
+    Elementos:{
+        Nombre:"Metal",
+        Cantidad_kg:8,
+
+        Nombre2:"Papel",
+        Cantidad2_kg:4
+    }  
 }
 
 let usuario13: Usuario =
@@ -139,6 +209,13 @@ let usuario13: Usuario =
     Telefono: "tres uno uno cuatro cinco cero uno tres siete seis",
     Dia:"Viernes",
     Hora:"6:30 pm",
+    Elementos:{
+        Nombre:"Vidrio",
+        Cantidad_kg:4,
+
+        Nombre2:"Metal",
+        Cantidad2_kg:6
+    }  
 }
 
 let usuario14: Usuario =
@@ -148,6 +225,13 @@ let usuario14: Usuario =
     Telefono: "tres uno cero cinco siete cero tres cinco cuatro dos",
     Dia:"Martes",
     Hora:"4:30 pm",
+    Elementos:{
+        Nombre:"Plastico",
+        Cantidad_kg:3,
+
+        Nombre2:"Papel",
+        Cantidad2_kg:6
+    }  
 }
 
 let usuario15: Usuario =
@@ -157,6 +241,13 @@ let usuario15: Usuario =
     Telefono: "tres dos cero cuatro cuatro ocho nueve dos tres cuatro",
     Dia:"Martes",
     Hora:"6:30 pm",
+    Elementos:{
+        Nombre:"Papel",
+        Cantidad_kg:4,
+
+        Nombre2:"Electronicos",
+        Cantidad2_kg:4
+    }  
 }
 
 
