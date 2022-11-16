@@ -1,0 +1,28 @@
+.container{
+    background-color: aqua;
+    /* height: 600px;
+    width: 800px; */
+    border-radius: 16px;
+  
+}
+
+.carta{
+    
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/8d58b3146693641.Y3JvcCwxMjE2LDk1MSw0NjAsMTIw.png);
+    background-size: contain;
+    /* height: 400px;
+    width: 600px; */
+    flex: 0 1 24%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img{
+    width: 200px;
+}
+

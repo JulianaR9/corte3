@@ -1,2 +1,10 @@
-<p>pokemon-list works!</p>
-<div></div>
+
+<div class="cards">
+<div class="container" *ngFor="let pokemon of pokemonsData">
+    <img [src]="pokemon.sprites.front_default"/>
+    <h2>{{pokemon.name}}</h2>
+</div>
+</div>
+    
+
+
