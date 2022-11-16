@@ -15,20 +15,25 @@ export class PokemonListComponent implements OnInit {
   constructor(private pokemonService:PokemonService) { }
 
   ngOnInit(): void {
-    this.pokemonService.getPokemons().subscribe(respuesta=>{
+   /* this.pokemonService.getPokemons().subscribe(respuesta=>{
       this.pokemons=respuesta.results;
       console.log(this.pokemons)
-    })
+      console.log(this.pokemonsData)
+    })*/
+    this.getPokemondata();
+
+    
   }
   getPokemondata(){
     for(let i=1; i <= 150; i++)
-    {
-      this.pokemonService.getPokemon(i).subscribe(respuesta => {
+      {
+      this.pokemonService.getPokemon(i).subscribe(respuesta => 
+        {
         this.pokemonsData.push(respuesta);
-      }
+        }
       );
-      
-    }
-
+    
+      }
+    console.log(this.pokemonsData)
   }
 }
