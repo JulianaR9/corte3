@@ -11,6 +11,7 @@ export class PokemonService {
 
    getPokemons():Observable<any> {return this.http.get("https://pokeapi.co/api/v2/pokemon/?limit=200")}
 
+   getPokemon(index:number) {return this.http.get(`https://pokeapi.co/api/v2/pokemon/${index}`)}
 
 
 }
