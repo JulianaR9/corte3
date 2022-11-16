@@ -10,6 +10,8 @@ export class PokemonListComponent implements OnInit {
 
   pokemons= [];
 
+  pokemonsData:any[]=[];
+
   constructor(private pokemonService:PokemonService) { }
 
   ngOnInit(): void {
@@ -18,5 +20,15 @@ export class PokemonListComponent implements OnInit {
       console.log(this.pokemons)
     })
   }
+  getPokemondata(){
+    for(let i=1; i <= 150; i++)
+    {
+      this.pokemonService.getPokemon(i).subscribe(respuesta => {
+        this.pokemonsData.push(respuesta);
+      }
+      );
+      
+    }
 
+  }
 }
