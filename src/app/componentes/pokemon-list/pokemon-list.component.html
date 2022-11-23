@@ -1,4 +1,7 @@
-
+<div>
+    <input type="text" [{ngModel}]="busqueda" placeholder="Nombre">
+    <button (click)="buscarPokemons()">Buscar</button>
+</div>
 <div class="cards">
 <div class="container" *ngFor="let pokemon of pokemonsData">
     <img [src]="pokemon.sprites.front_default"/>

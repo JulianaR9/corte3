@@ -9,6 +9,8 @@ import { PokemonService } from 'src/app/servicios/pokemon.service';
 export class PokemonListComponent implements OnInit {
 
   pokemons= [];
+  
+  busqueda:string= "";
 
   pokemonsData:any[]=[];
 
@@ -26,12 +28,15 @@ export class PokemonListComponent implements OnInit {
   }
   getPokemondata(){
     for(let i=1; i <= 150; i++)
+    (respuesta:any)=>
       {
-      this.pokemonService.getPokemon(i).subscribe(respuesta => 
-        {
-        this.pokemonsData.push(respuesta);
-        }
-      );
+      //this.pokemonService.getPokemon(i).subscribe(respuesta => 
+       // this.pokemonsData.push(respuesta);
+       if(this.busqueda ===""||respuesta.name.includes(this.busqueda)){
+        this.pokemonsData.push(respuesta)
+
+      }
+      
     
       }
     console.log(this.pokemonsData)

@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { FotosComponent } from './componentes/fotos/fotos.component';
 import { PokemonListComponent } from './componentes/pokemon-list/pokemon-list.component';
 import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import {HttpClientModule} from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
